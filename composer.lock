@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7bd63e758003a747991ea4786bf68cbe",
+    "packages": [
+        {
+            "name": "payrex/payrex-php",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/payrexhq/payrex-php.git",
+                "reference": "9ee719673aa461b0b3f451008d8698c566ff6619"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/payrexhq/payrex-php/zipball/9ee719673aa461b0b3f451008d8698c566ff6619",
+                "reference": "9ee719673aa461b0b3f451008d8698c566ff6619",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Payrex\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PayRex Product Engineering Team"
+                }
+            ],
+            "description": "PayRex PHP Library",
+            "support": {
+                "issues": "https://github.com/payrexhq/payrex-php/issues",
+                "source": "https://github.com/payrexhq/payrex-php/tree/v0.0.0"
+            },
+            "time": "2023-11-06T11:27:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A demo application of PayRex payments product" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PHP Demo Application for PayRex</title>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="btn-pay" type="button" onClick="payAction()">
+        <div class="spinner hidden" id="spinner"></div>
+        <span id="btn-pay-text">Pay</span>
+      </button>
+      <div id="payment-element">
+        <!--Payrex.js will mount the Payment Element here. -->
+      </div>
+    </div>
+    <!-- Include PayRexJS script -->
+    <script type="text/javascript" src="https://js.payrexhq.com"></script>
+    <script type="text/javascript" src="checkout.js" defer></script>
+  </body>
+</html>
