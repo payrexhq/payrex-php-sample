@@ -4,7 +4,7 @@ This repository is a simple payment checkout form to receive payments via PayRex
 
 ## Installation
 
-1. Build the server
+1. Install the dependencies
 
 ```bash
 composer install
