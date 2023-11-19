@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/payrexhq/payrex-php.git",
-                "reference": "9ee719673aa461b0b3f451008d8698c566ff6619"
+                "reference": "6f8f1b6da886444259acb054d9347e22ca4cd70e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/payrexhq/payrex-php/zipball/9ee719673aa461b0b3f451008d8698c566ff6619",
-                "reference": "9ee719673aa461b0b3f451008d8698c566ff6619",
+                "url": "https://api.github.com/repos/payrexhq/payrex-php/zipball/6f8f1b6da886444259acb054d9347e22ca4cd70e",
+                "reference": "6f8f1b6da886444259acb054d9347e22ca4cd70e",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "issues": "https://github.com/payrexhq/payrex-php/issues",
                 "source": "https://github.com/payrexhq/payrex-php/tree/v0.0.0"
             },
-            "time": "2023-11-06T11:27:17+00:00"
+            "time": "2023-11-19T13:10:51+00:00"
         }
     ],
     "packages-dev": [],
