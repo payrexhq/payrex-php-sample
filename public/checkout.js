@@ -1,5 +1,5 @@
 // Add your PayRex Public API key.
-const payrex = window.Payrex('');
+const payrex = window.Payrex('pk_...');
 let elements;
 
 initialize();

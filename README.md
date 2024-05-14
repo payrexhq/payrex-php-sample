@@ -12,7 +12,7 @@ composer install
 
 NOTE: If you don't have composer, please install it first: https://getcomposer.org/
 
-2. Run the server
+2. Run the server via command line. Ensure that you have php command line installed.
 
 ```bash
 php -S 127.0.0.1:4242 --docroot=public

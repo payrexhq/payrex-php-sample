@@ -5,7 +5,7 @@ require_once '../vendor/autoload.php';
 // Protect your PayRex Secret API key at all costs. One common approach
 // to store it in an environment variable.
 // Add your PayRex test secret API key.
-$payrexSecretApiKey = '';
+$payrexSecretApiKey = 'sk_...';
 
 $payrex = new \Payrex\PayrexClient($payrexSecretApiKey);
 
@@ -15,8 +15,8 @@ $paymentIntent = $payrex->paymentIntents->create([
   'amount' => 10000,
   'currency' => 'PHP',
   'payment_methods' => [
-      'card',
-      'gcash'
+    'card',
+    'gcash'
   ],
 ]);
 
